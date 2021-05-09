@@ -1,0 +1,43 @@
+.reviews{
+    margin-bottom: 48px;
+    &__title{
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        img{
+            width: 169px;
+            height: 169px;
+
+        }
+        &__name{
+            width: 185px;
+            height: 18px;
+            font-size: 18px;
+            line-height: 18px;
+            color: #0D0D0D;
+            font-weight: 700;
+        }
+        &__subtitle{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #646464;
+        }
+        &__descr{
+            width: 680px;
+            margin-top: 10px;
+            line-height: 24px;
+        }
+    }
+    
+}
+
+
+
+
